@@ -1,0 +1,269 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "c88f695167d66b65d8ebb9bacc14047d",
+    "packages": [
+        {
+            "name": "container-interop/container-interop",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/container-interop/container-interop.git",
+                "reference": "b4274c871bfd1ae8d8e527ba11734f4df1573e48"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/container-interop/container-interop/zipball/b4274c871bfd1ae8d8e527ba11734f4df1573e48",
+                "reference": "b4274c871bfd1ae8d8e527ba11734f4df1573e48",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Interop\\Container\\": "src/Interop/Container/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
+            "time": "2014-03-16 14:50:05"
+        },
+        {
+            "name": "mouf/mouf",
+            "version": "2.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thecodingmachine/mouf.git",
+                "reference": "3420a11d4009cd4d5009bea48649ff2a7fe70073"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thecodingmachine/mouf/zipball/3420a11d4009cd4d5009bea48649ff2a7fe70073",
+                "reference": "3420a11d4009cd4d5009bea48649ff2a7fe70073",
+                "shasum": ""
+            },
+            "require": {
+                "container-interop/container-interop": "~1.0",
+                "mouf/mouf-installer": "~2.0",
+                "mouf/mouf-validators-interface": "~2.0",
+                "php": ">=5.3.9"
+            },
+            "type": "mouf-framework",
+            "extra": {
+                "mouf": {
+                    "doc": [
+                        {
+                            "title": "Installing Mouf",
+                            "url": "doc/installing_mouf.md",
+                            "children": [
+                                {
+                                    "title": "Troubleshooting install",
+                                    "url": "doc/troubleshooting.md"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Getting started with dependency injection",
+                            "url": "doc/dependency_injection.md",
+                            "children": [
+                                {
+                                    "title": "Using Mouf UI to define instances",
+                                    "url": "doc/mouf_di_ui.md"
+                                },
+                                {
+                                    "title": "Supported types",
+                                    "url": "doc/supported_types.md"
+                                },
+                                {
+                                    "title": "Special annotations",
+                                    "url": "doc/mouf_annotations.md"
+                                },
+                                {
+                                    "title": "Injection via PHP code",
+                                    "url": "doc/declare_instance_via_php_code.md"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Configuration management",
+                            "url": "doc/configuration_management.md"
+                        },
+                        {
+                            "title": "Creating a Mouf2 package",
+                            "url": "doc/create_mouf_package.md",
+                            "children": [
+                                {
+                                    "title": "Writing a validator",
+                                    "url": "doc/writing_mouf_validator.md",
+                                    "children": [
+                                        {
+                                            "title": "Legacy validators",
+                                            "url": "doc/mouf_legacy_validators.md"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Writing an install process",
+                                    "url": "doc/install_process.md"
+                                },
+                                {
+                                    "title": "Writing packages documentation",
+                                    "url": "doc/writing_packages_documentation.md"
+                                },
+                                {
+                                    "title": "Extending Mouf user interface",
+                                    "url": "doc/extending_mouf_ui.md"
+                                },
+                                {
+                                    "title": "Managing instances programmatically",
+                                    "url": "doc/managing_instances_programmatically.md"
+                                },
+                                {
+                                    "title": "Utility functions",
+                                    "url": "doc/utility_functions.md"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Mouf": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Négrier",
+                    "email": "d.negrier@thecodingmachine.com",
+                    "homepage": "http://mouf-php.com"
+                }
+            ],
+            "description": "The Mouf PHP framework: an open-source PHP framework providing an easy way to download, install, use and reuse components, with a graphical user interface.",
+            "homepage": "http://mouf-php.com",
+            "keywords": [
+                "dependency injection",
+                "di",
+                "framework",
+                "inversion of control",
+                "ioc",
+                "mouf"
+            ],
+            "time": "2014-05-12 17:40:21"
+        },
+        {
+            "name": "mouf/mouf-installer",
+            "version": "2.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thecodingmachine/mouf-installer.git",
+                "reference": "ec30d863405283cc3774b1e65188a791b6ceb9d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thecodingmachine/mouf-installer/zipball/ec30d863405283cc3774b1e65188a791b6ceb9d3",
+                "reference": "ec30d863405283cc3774b1e65188a791b6ceb9d3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": [
+                    "Mouf\\Installer\\MoufLibraryInstaller",
+                    "Mouf\\Installer\\MoufFrameworkInstaller"
+                ]
+            },
+            "autoload": {
+                "psr-0": {
+                    "Mouf\\Installer": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Négrier",
+                    "email": "d.negrier@thecodingmachine.com",
+                    "homepage": "http://mouf-php.com"
+                }
+            ],
+            "description": "The Mouf-installer package is a composer in charge of installing any package with the 'mouf-library' type.",
+            "homepage": "http://mouf-php.com",
+            "keywords": [
+                "install",
+                "mouf"
+            ],
+            "time": "2014-02-26 11:35:20"
+        },
+        {
+            "name": "mouf/mouf-validators-interface",
+            "version": "2.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thecodingmachine/mouf-validators-interface.git",
+                "reference": "7678d5c0d4e7113aa4f5345e6896933ff8b5e7ce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thecodingmachine/mouf-validators-interface/zipball/7678d5c0d4e7113aa4f5345e6896933ff8b5e7ce",
+                "reference": "7678d5c0d4e7113aa4f5345e6896933ff8b5e7ce",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Mouf\\Validator": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Négrier",
+                    "email": "d.negrier@thecodingmachine.com",
+                    "homepage": "http://mouf-php.com"
+                }
+            ],
+            "description": "The mouf-validators-interface package contains interfaces your classes can implement to provide self-validation in the Mouf interface.",
+            "homepage": "http://mouf-php.com",
+            "keywords": [
+                "mouf",
+                "validators"
+            ],
+            "time": "2013-10-29 18:21:58"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": [
+
+    ],
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

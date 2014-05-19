@@ -1,0 +1,13 @@
+{
+	"name": "mouf/sample-project",
+	"description": "This package contains demo classes used in the Mouf tutorial at http://mouf-php.com/packages/mouf/mouf/doc/mouf_di_ui.md",
+    "require": {
+        "mouf/mouf": "~2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mouf\\Sample": "src/"
+        }
+    },
+    "minimum-stability": "dev" 
+}
